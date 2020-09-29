@@ -1,0 +1,79 @@
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
+  display: flex;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  background-image: url(/how-to-learn/images/logo_place_header.svg);
+  width: 183px;
+  height: 32px;
+}
+
+.logo_header-position {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 1;
+}
+
+.header__title {
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+}
+
+.header__title_position {
+  position: absolute;
+  left: 64px;
+  align-self: center;
+  margin: 0;
+  z-index: 1;
+}
+
+.header__subtitle {
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__subtitle_position {
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #5791ea;
+  margin: 0;
+}
+
+.header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
+  width: 568px;
+  height: 568px;
+  background-color: blue;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+}
+
+.header__main-illustration_position {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  box-sizing: content-box;
+}
