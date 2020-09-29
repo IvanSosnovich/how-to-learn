@@ -1,0 +1,54 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* description css style */
+.description {
+  margin: 100px 0 100px;
+  min-height: 300px;
+  align-self: center;
+  width: 80%;
+}
+
+.two-columns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+  color: #4d89eb;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph:first-child {
+margin-top: 0;
+}
+
+.two-columns__paragraph {
+  margin-top: 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  font-weight: 700;
+}
+
+/* digits css style */
+.digits {
+  border: 1px solid red;
+}
