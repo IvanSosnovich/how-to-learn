@@ -201,7 +201,7 @@ padding-top: 0;
   font-stretch: normal;
 }
 
-.table__text_margin-top {
+.table__text_margin_top {
   margin-top: 20px;
 }
 /* digits css end */
@@ -304,7 +304,7 @@ margin: 20px 0 0;
   top: 0;
   right: -210px;
   object-fit: contain;
-  background-image: url(/how-to-learn/images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman-triangle.svg);
 }
 /* kaufman css end */
 /* footer css start */
