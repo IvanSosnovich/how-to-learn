@@ -312,13 +312,14 @@ margin: 0;
   background-size: cover;
 }
 /* kaufman css end */
+
 /* footer css start */
 .footer {
   display: flex;
   min-height: 350px;
   padding: 60px 0 40px;
   margin: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
   background-color: #1f1f1f;
   color: white;
 }
@@ -336,7 +337,6 @@ margin: 0;
   flex-direction: column;
   justify-content: space-between;
   margin: 0;
-  padding: 60px 0 40px;
 }
 
 .footer__column_content_copyright {
@@ -370,13 +370,13 @@ padding-bottom:20px;
   font-weight: bold;
 }
 
-.footer__column_list {
+.footer__column-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.footer__column_list:last-of-type {
+.footer__column-list:last-of-type {
   padding-bottom: 16px;
 }
 
