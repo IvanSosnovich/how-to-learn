@@ -11,14 +11,14 @@
   <div class="page">
     <!-- header -->
     <header class="header">
-        <img  class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Yandex logo">
+        <img  class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс">
         <h1 class="header__title header__title_position">Научиться учиться</h1>
         <p class="header__subtitle header__subtitle_position">
           Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-          <a href="#" class="header__link"> Узнать &#8594; </a>
+          <a href="#" class="header__link"> Узнать &rarr; </a>
         </p>
         <div class="header__square-pic"></div>
-        <img class="header__main-illustration header__main-illustration_position" src="./images/header-image.png" alt="header-image">
+        <img class="header__main-illustration" src="./images/header-image.png" alt="Семья с собакой">
     </header>
     <!-- /header -->
     <!-- main -->
@@ -44,7 +44,7 @@
       <!-- section digits -->
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
-        <h3 class="section-subtitle">Про учёбу и мозг</h3>
+        <p class="section-subtitle">Про учёбу и мозг</p>
         <!-- table -->
         <div class="table">
           <!-- cell -->
@@ -52,7 +52,7 @@
             <h2 class="table__heading">
               86 миллиардов
             </h2>
-            <p class="table__text table__text_margin_top">
+            <p class="table__text">
               Число нейронов в мозге человека
             </p>
           </div>
@@ -63,7 +63,7 @@
               2.1 миллиарда
             </h2>
             <p class="table__text"> Число нуждающихся в повышении квалификации </p>
-            <p class="table__text table__text_margin_top">Всемирный Банк, 2017</p>
+            <p class="table__text">Всемирный Банк, 2017</p>
           </div>
           <!-- /cell -->
           <!-- cell -->
@@ -71,7 +71,7 @@
             <h2 class="table__heading">
               1000 терабайт
             </h2>
-            <p class="table__text table__text_margin_top">
+            <p class="table__text">
               Объём памяти человека
             </p>
           </div>
@@ -81,7 +81,7 @@
             <h2 class="table__heading">
               500 триллионов
             </h2>
-            <p class="table__text table__text_margin_top">
+            <p class="table__text">
               Число ответственных за обучение нервных синапсов у взрослого человека
             </p>
           </div>
@@ -91,8 +91,8 @@
             <h2 class="table__heading">
               420 миллионов
             </h2>
-            <p class="table__text table__text_margin_top"> Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства </p>
-            <p class="table__text table__text_margin_top"> Всемирный Банк, 2017</p>
+            <p class="table__text"> Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства </p>
+            <p class="table__text"> Всемирный Банк, 2017</p>
           </div>
           <!-- /cell -->
           <!-- cell -->
@@ -100,7 +100,7 @@
             <h2 class="table__heading">
               17–20 лет
             </h2>
-            <p class="table__text table__text_margin_top">
+            <p class="table__text">
               Пик обучаемости
             </p>
           </div>
@@ -110,7 +110,7 @@
             <h2 class="table__heading">
               1885 год
             </h2>
-            <p class="table__text table__text_margin_top">
+            <p class="table__text">
               Открытие кривой забывания
             </p>
           </div>
@@ -120,7 +120,7 @@
             <h2 class="table__heading">
               1889 год
             </h2>
-            <p class="table__text table__text_margin_top">
+            <p class="table__text">
               Открытие условного рефлекса
             </p>
           </div>
@@ -132,9 +132,9 @@
       <!-- section feynman -->
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
-        <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-        <a href="#" class="feynman__link">Подробнее &#8594;</a>
-        <img class="feynman__photo" src="./images/feynman.png" alt="feynman" >
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
+        <a href="#" class="feynman__link">Подробнее &rarr;</a>
+        <img class="feynman__photo" src="./images/feynman.png" alt="Фуймана портрет" >
       </section>
       <!-- /section feynman -->
       <!-- section kaufman -->
@@ -142,7 +142,7 @@
       <section class="kaufman">
       <div class="kaufman__triangle"></div>
       <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-      <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
+      <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
       <!-- table -->
       <div class="table table_theme_dark ">
         <!-- cell -->
@@ -223,30 +223,24 @@
     <!-- footer -->
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column_content_copyright">
-          <img src="./images/logo_place_footer.svg" alt="Yandex logo" class="logo logo_place_footer">
-          <h2 class="footer__author" lang="ru">	&mdash;&copy; 2019. Иван Соснович</h2>
+        <div class="footer__column footer__column_content_copyright">
+          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндекс">
+          <p class="footer__author" lang="ru">&copy; 2019. Иван Соснович</p>
         </div>
-        <div class="footer__column_content_info">
-          <h3 class="footer__column-heading">О Практикуме</h3>
-          <ul class="footer__column-links">
-            <li>Главная</li>
-            <li>Концепция</li>
-            <li>Наставники</li>
+        <nav class="footer__column footer__column_content_info">
+          <ul class="footer__column_list">
+            <li class="footer__column-heading">О Практикуме</li>
+            <li><a class="footer__column-links" href="#">Главная</a></li>
+            <li><a class="footer__column-links" href="#">Концепция</a></li>
+            <li><a class="footer__column-links" href="#">Наставники</a></li>
           </ul>
-        </div>
-        <div class="footer__column_content_social">
-          <h3 class="footer__column-heading">Соцсети</h3>
-          <ul class="footer__column_content">
-            <li>
-              <a class="footer__social-links" href="#"> <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook icon"> &nbsp; Facebook </a>
-            </li>
-            <li>
-              <a class="footer__social-links" href="#"> <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Вконтакте icon"> &nbsp; ВКонтакте </a>
-            </li>
-            <li>
-              <a class="footer__social-links" href="#"> <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="instagram icon"> &nbsp; Instagram </a>
-            </li>
+        </nav>
+        <div class="footer__column footer__column_content_social">
+          <ul class="footer__column_list">
+            <li class="footer__column-heading">Соцсети</li>
+            <li><a class="footer__column-links" href="#"> <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Фейсбук иконка">Facebook</a></li>
+            <li><a class="footer__column-links" href="#"> <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Вконтакте иконка">ВКонтакте</a></li>
+            <li><a class="footer__column-links" href="#"> <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Инстаграм инонка">Instagram</a></li>
           </ul>
         </div>
       </div>
