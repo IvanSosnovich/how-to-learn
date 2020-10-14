@@ -1,6 +1,10 @@
  /* импортируем normalize.css */
 @import url(../vendor/normalize.css);
 
+/* импортируем анимацию в проект */
+@import url(../blocks/rotation/rotation.css);
+/* /импортируем анимацию в проект */
+
 /* импортируем общие стили страницы */
 @import url(../blocks/root/root.css);
 
@@ -48,13 +52,18 @@
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../blocks/two-columns/__paragraph/first-child/two-columns__paragraph:first-child.css);
 
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 /* /имортируем блок two-columns */
 
 /* импортируем блок techniques */
+@import url(../blocks/techniques/techniques.css);
 
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__description/cards__description.css);
+@import url(../blocks/cards/__title/cards__title.css);
 /* /импортируем блок techniques */
 
 /* импортируем блок video */
@@ -121,7 +130,6 @@
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 
 @import url(../blocks/footer/__column-list/footer__column-list.css);
-@import url(../blocks/footer/__column-list/last-of-type/footer__column-list:last-of-type.css);
 
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 
