@@ -67,7 +67,10 @@
 /* /импортируем блок techniques */
 
 /* импортируем блок video */
+@import url(../blocks/video/video.css);
 
+@import url(../blocks/video/__frames/video__frames.css);
+@import url(../blocks/video/__frame/video__frame.css);
 /* /импортируем блок video */
 
 /* импортируем блок oakley */
