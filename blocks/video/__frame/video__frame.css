@@ -1,7 +1,6 @@
 .video__frame {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
 }
 
 .video__frame:first-of-type {
